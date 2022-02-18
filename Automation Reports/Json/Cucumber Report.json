@@ -1,0 +1,548 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13644800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Automation_StepDefinitions.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login Page",
+        "description": "",
+        "id": "purchasing-clothes-in-automation-website;login-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 296700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Automation_StepDefinitions.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17068636700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Navigates To Automation Website",
+            "match": {
+              "location": "Automation_StepDefinitions.user_Navigates_To_Automation_Website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12352064000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Clicks Signin Button And Navigates To Login Page",
+            "match": {
+              "location": "Automation_StepDefinitions.user_Clicks_Signin_Button_And_Naavigates_To_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2878356600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Enters Username As \"Ahmadullah\" And Password As \"Ahmad@96\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ahmadullah",
+                  "offset": 25
+                },
+                {
+                  "val": "Ahmad@96",
+                  "offset": 54
+                }
+              ],
+              "location": "Automation_StepDefinitions.user_Enters_Username_As_And_Password_As(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8582431200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Clicks Login Button And Navigates To Home Page",
+            "match": {
+              "location": "Automation_StepDefinitions.user_Clicks_Login_Button_And_Navigates_To_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 212600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Automation_StepDefinitions.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login Page",
+        "description": "",
+        "id": "purchasing-clothes-in-automation-website;login-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 136200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Automation_StepDefinitions.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10546013700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Navigates To Automation Website",
+            "match": {
+              "location": "Automation_StepDefinitions.user_Navigates_To_Automation_Website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17017260600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Clicks Signin Button And Navigates To Login Page",
+            "match": {
+              "location": "Automation_StepDefinitions.user_Clicks_Signin_Button_And_Naavigates_To_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 759979300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Enters Username As \"seleniumautomationproject@gmail.com\" And Password As \"Ahmad@96\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "seleniumautomationproject@gmail.com",
+                  "offset": 25
+                },
+                {
+                  "val": "Ahmad@96",
+                  "offset": 79
+                }
+              ],
+              "location": "Automation_StepDefinitions.user_Enters_Username_As_And_Password_As(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15618108700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Clicks Login Button And Navigates To Home Page",
+            "match": {
+              "location": "Automation_StepDefinitions.user_Clicks_Login_Button_And_Navigates_To_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 229600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Automation_StepDefinitions.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Home Page",
+        "description": "",
+        "id": "purchasing-clothes-in-automation-website;home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 187400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Automation_StepDefinitions.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4099094200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user Clicks T-Shirts Session And Navigates To T-Shirts Webpage",
+            "match": {
+              "location": "Automation_StepDefinitions.user_Clicks_T_Shirts_Session_And_Navigates_To_T_Shirts_Webpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 745492900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user Clicks Quick View To Preview",
+            "match": {
+              "location": "Automation_StepDefinitions.user_Clicks_Quick_View_To_Preview()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4478560100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user Click On Add To Cart",
+            "match": {
+              "location": "Automation_StepDefinitions.user_Click_On_Add_To_Cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11639758600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user Click On Proceed To Checkout And Navigates To Shopping Cart - Summary Page",
+            "match": {
+              "location": "Automation_StepDefinitions.user_Click_On_Proceed_To_Checkout_And_Navigates_To_Shopping_Cart_Summary_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 176900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Automation_StepDefinitions.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Shopping Cart - Summary",
+        "description": "",
+        "id": "purchasing-clothes-in-automation-website;shopping-cart---summary",
+        "after": [
+          {
+            "result": {
+              "duration": 247900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Automation_StepDefinitions.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4652107000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user Clicks Proceed To Checkout And Navigates to Addresses Page",
+            "match": {
+              "location": "Automation_StepDefinitions.user_Clicks_Proceed_To_Checkout_And_Navigates_to_Addresses_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2713500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Automation_StepDefinitions.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Addresses",
+        "description": "",
+        "id": "purchasing-clothes-in-automation-website;addresses",
+        "after": [
+          {
+            "result": {
+              "duration": 201900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Automation_StepDefinitions.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2889051400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user Clicks Proceed To Checkout And Navigates to Shipping Page",
+            "match": {
+              "location": "Automation_StepDefinitions.user_Clicks_Proceed_To_Checkout_And_Navigates_to_Shipping_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 302600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Automation_StepDefinitions.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Shipping",
+        "description": "",
+        "id": "purchasing-clothes-in-automation-website;shipping",
+        "after": [
+          {
+            "result": {
+              "duration": 234000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Automation_StepDefinitions.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 203754600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user Click On Term Of Service Checkbox",
+            "match": {
+              "location": "Automation_StepDefinitions.user_Click_On_Term_Of_Service_Checkbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3067138300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user Clicks Proceed To Checkout And Navigates to Payment Page",
+            "match": {
+              "location": "Automation_StepDefinitions.user_Clicks_Proceed_To_Checkout_And_Navigates_to_Payment_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 315800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Automation_StepDefinitions.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Payment",
+        "description": "",
+        "id": "purchasing-clothes-in-automation-website;payment",
+        "after": [
+          {
+            "result": {
+              "duration": 368000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Automation_StepDefinitions.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2059545000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user Selects Payment Method By Clicking On It And Navigates To Order Summary",
+            "match": {
+              "location": "Automation_StepDefinitions.user_Selects_Payment_Method_By_Clicking_On_It_And_Navigates_To_Order_Summary()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4300433900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user Click On I Confirm My Order And Webpage Redirect To Order Complete Page",
+            "match": {
+              "location": "Automation_StepDefinitions.user_Click_On_I_Confirm_My_Order_And_Webpage_Redirect_To_Order_Complete_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 468800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Automation_StepDefinitions.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "My Account",
+        "description": "",
+        "id": "purchasing-clothes-in-automation-website;my-account",
+        "after": [
+          {
+            "result": {
+              "duration": 208300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Automation_StepDefinitions.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1409863100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user Click On Username And Webpage Navigates To My Account Page",
+            "match": {
+              "location": "Automation_StepDefinitions.user_Click_On_Username_And_Webpage_Navigates_To_My_Account_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4348740900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user Click On Order History And Details And Webpage Navigates To The Order History",
+            "match": {
+              "location": "Automation_StepDefinitions.user_Click_On_Order_History_And_Details_And_Webpage_Navigates_To_The_Order_History()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4054344700,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user Clicks Signout And Webpage Redirects To Logged Out Successfully.",
+            "match": {
+              "location": "Automation_StepDefinitions.user_Clicks_Signout_And_Webpage_Redirects_To_Logged_Out_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Purchasing Clothes In Automation Website",
+    "description": "",
+    "id": "purchasing-clothes-in-automation-website",
+    "keyword": "Feature",
+    "uri": "Automation.feature"
+  }
+]
