@@ -10,7 +10,7 @@ Then user Clicks Login Button And Navigates To Search Hotel Page
 Examples: 
 |Username|Password|
 |Faizan|O51L5B|
-|Ahmadullah|O51L5B|
+|AsFaizan|O51L5B|
 
 @A1
 Scenario: Search Hotel Page
